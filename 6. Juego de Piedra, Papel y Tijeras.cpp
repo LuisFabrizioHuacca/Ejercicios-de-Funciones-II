@@ -18,6 +18,8 @@ int main() {
     int p_jugador = 0, puntos_computadora = 0;
     string jugador, computadora;
 
+	cout<<">>>>>>El programa se ha iniciado correctamente<<<<<<"<<endl;
+
     do {
         cout << "Ingrese su jugada, (piedra, papel o tijera): ";
         cin >> jugador;
@@ -53,6 +55,8 @@ int main() {
     } else {
         cout << "El ganador es la computadora";
     }
+
+	cout<<">>>>>>El programa ha finalizado correctamente<<<<<<";
 
     return 0;
 }
