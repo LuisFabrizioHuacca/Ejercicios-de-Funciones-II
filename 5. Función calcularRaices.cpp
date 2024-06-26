@@ -23,21 +23,25 @@ int main() {
     complex<double> raiz1, raiz2;
     bool sonReales;
 
-    cout<<"Ingrese los coeficientes a, b y c de la ecuación cuadrática: ";
+	cout<<">>>>>>El programa se ha iniciado correctamente<<<<<<"<<endl;
+
+    cout<<"Ingrese los coeficientes a, b y c de la ecuación cuadratica: ";
     cin>>a>>b>>c;
 
     calcularRaices(a, b, c, raiz1, raiz2, sonReales);
 
     if (sonReales) {
-        cout<<"Las raíces son reales:"<<endl;
-        cout<<"Raíz 1: "<<raiz1<<endl;
-        cout<<"Raíz 2: "<<raiz2<<endl;
+        cout<<"Las raices son reales:"<<endl;
+        cout<<"Raiz 1: "<<raiz1<<endl;
+        cout<<"Raiz 2: "<<raiz2<<endl;
     } else {
-        cout<<"Las raíces son complejas:"<<endl;
-        cout<<"Raíz 1: "<<raiz1<<endl;
-        cout<<"Raíz 2: "<<raiz2<<endl;
+        cout<<"Las raices son complejas:"<<endl;
+        cout<<"Raiz 1: "<<raiz1<<endl;
+        cout<<"Raiz 2: "<<raiz2<<endl;
     }
 
+	cout<<">>>>>>El programa ha finalizado correctamente<<<<<<";
+	
     return 0;
 }
 
