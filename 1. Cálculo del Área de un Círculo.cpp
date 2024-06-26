@@ -5,6 +5,7 @@ using namespace std;
 
 int main (){
 	
+	cout<<">>>>>>El programa se ha iniciado correctamente<<<<<<"<<endl;
 	double radio, area;
 	
 	cout<<"Ponga el radio del circulo: ";
