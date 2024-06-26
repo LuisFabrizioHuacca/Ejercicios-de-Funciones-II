@@ -24,18 +24,18 @@ int main() {
         double raiz1=(-b + sqrt(discriminante)) / (2 * a);
         double raiz2=(-b - sqrt(discriminante)) / (2 * a);
         cout<<"Las raíces son reales y distintas." << endl;
-        cout<<"Raíz 1: "<<raiz1<<endl;
-        cout<<"Raíz 2: "<<raiz2<<endl;
+        cout<<"Raiz 1: "<<raiz1<<endl;
+        cout<<"Raiz 2: "<<raiz2<<endl;
     } else if (discriminante == 0) {
         double raiz = -b / (2 * a);
-        cout<<"Las raíces son reales y iguales."<<endl;
-        cout<<"Raíz: "<<raiz<<endl;
+        cout<<"Las raices son reales y iguales."<<endl;
+        cout<<"Raiz: "<<raiz<<endl;
     } else {
         complex<double> raiz1 = complex<double>(-b, sqrt(-discriminante)) / (2.0 * a);
         complex<double> raiz2 = complex<double>(-b, -sqrt(-discriminante)) / (2.0 * a);
-        cout<<"Las raíces son complejas y distintas."<<endl;
-        cout<<"Raíz 1: "<<raiz1<<endl;
-        cout<<"Raíz 2: "<<raiz2<<endl;
+        cout<<"Las raices son complejas y distintas."<<endl;
+        cout<<"Raiz 1: "<<raiz1<<endl;
+        cout<<"Raiz 2: "<<raiz2<<endl;
     }
 
     return 0;
